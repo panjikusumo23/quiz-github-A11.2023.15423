@@ -1,6 +1,8 @@
 <?php
 use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\admin\ObatController; 
+use App\Http\Controllers\Dokter\JadwalPeriksaController;
 
 
 Route::get('/', function () {
