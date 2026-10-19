@@ -63,6 +63,12 @@
                 Manajemen Obat
             </a>
 
+            <a href="{{ route('polis.index') }}"
+                class="{{ $baseLink }} {{ request()->routeIs('polis.*') ? $active : $inactive }}">
+                <i class="fas fa-hospital w-4 text-center"></i>
+                Manajemen Poli
+            </a>
+
         </div>
         @endif
 
