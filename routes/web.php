@@ -2,8 +2,9 @@
 use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\admin\ObatController; 
-use App\Http\Controllers\Dokter\JadwalPeriksaController;
 use App\Http\Controllers\Admin\AdminPoliController;
+use App\Http\Controllers\Admin\DokterController;
+use App\Http\Controllers\Dokter\JadwalPeriksaController;
 
 
 Route::get('/', function () {
