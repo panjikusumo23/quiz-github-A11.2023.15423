@@ -1,3 +1,4 @@
+
 <?php
 
 namespace App\Http\Controllers\Dokter;
@@ -11,7 +12,7 @@ class RiwayatPasienController extends Controller
 {
     public function index()
     {
-        $riwayatPasien = Periksa::whereHas('daftarPoli.jadwalPeriksa', function($query) {
+        $riwayatPasien = Periksa::whereHas('daftarPoli.jadwalPeriksa', function ($query) {
             $query->where('id_dokter', Auth::id());
         })->with([
             'daftarPoli.pasien',
@@ -24,7 +25,7 @@ class RiwayatPasienController extends Controller
 
     public function show($id)
     {
-        $periksa = Periksa::whereHas('daftarPoli.jadwalPeriksa', function($query) {
+        $periksa = Periksa::whereHas('daftarPoli.jadwalPeriksa', function ($query) {
             $query->where('id_dokter', Auth::id());
         })->with([
             'daftarPoli.pasien',

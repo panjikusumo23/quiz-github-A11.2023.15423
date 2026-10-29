@@ -1,0 +1,16 @@
+* [33mb18dde8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m fix: Pendaftaran Periksa Pasien and periksa pasien || add : view riwayat pasien
+[31m|[m * [33md5a7710[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m fix: view periksa pasien
+[31m|[m * [33m153305c[m feat : implement CRUD, Routes & Sidebar Riwayat Pasien Dokter
+[31m|[m[31m/[m  
+* [33m75c584e[m feat : implement CRUD, Routes & Sidebar Dokter memeriksa pasien
+* [33m207bdee[m feat : implement CRUD, Routes & Sidebar poli pasien
+* [33m28c092c[m feat : add view manajemen pasien
+* [33ma0f80db[m feat : implement CRUD, Routes & Sidebar Pasien
+* [33m4457264[m feat : add view manajemen dokter
+* [33m1043bbf[m feat : implement CRUD, Routes & Sidebar Dokter
+* [33m1450fa2[m feat : add view manajemen poli
+* [33m7944449[m feat : Implement CRUD, Routes & Sidebar Poli
+* [33mbb5e9bf[m fix: edit obat 2
+* [33m16b109d[m fix: edit obat
+* [33md7b2892[m fix: ObatController and JadwalPeriksaController not exist
+* [33m56048cc[m feat : add view jadwal periksa
